@@ -11,8 +11,8 @@
     "preview": "vite preview",
     "prettier": "prettier --write .",
     "prepare": "husky install",
-    "lint": "npx eslint --fix",
-    "commit": "npx cz"
+    "lint": "vite lint",
+    "commit": "cz"
   },
   "dependencies": {
     "vue": "^3.2.41"
